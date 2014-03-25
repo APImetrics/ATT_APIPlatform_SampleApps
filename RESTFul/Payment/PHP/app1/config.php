@@ -6,11 +6,11 @@ $oauth_file = 'token.php';
 
 // Mandatory parameter that should be set to the registered application's 
 // 'API Key' value.
-$api_key = '';
+$api_key = 'i9teqxrotrzrb129296xdi5whsjhyyhw';
 
 // Mandatory parameter that should be set to the registered application's
 // 'Secret Key' value.
-$secret_key = '';
+$secret_key = 'ihjr6lgrb8sbbabsczyrzijzpgjxatbn';
 
 // Fully Qualified Domain Name. Mandatory parameter that points to the location
 // of AT&T's API.
@@ -18,7 +18,7 @@ $FQDN = 'https://api.att.com';
 
 // Mandatory parameter that specifies the authorization redirect URL. This is
 // URL that the consent flow will redirect to.
-$redirect_url = 'http://localhost/payment/index.php';
+$redirect_url = 'http://staging.viafo.info/att/payment/index.php';
 
 // Mandatory parameter. Scope to use when requesting access token.
 $scope = 'PAYMENT';
@@ -51,6 +51,6 @@ $linkHelp = "#";
 // Optional parameter. Sets whether to accept all certificates, such as 
 // self-signed certificates. Useful for testing but should not be used on
 // production.
-// $accept_all_certs = false;
+$accept_all_certs = true;
 
 ?>

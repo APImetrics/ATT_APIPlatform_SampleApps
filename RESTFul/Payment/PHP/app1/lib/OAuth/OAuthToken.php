@@ -199,9 +199,9 @@ class OAuthToken
      */
     public static function loadToken($location)
     {
-        if (!file_exists($location)) {
-            return null;
-        }
+        // if (!file_exists($location)) {
+        //     return null;
+        // }
 
         // TODO: Better error handling if open or lock fails
 
